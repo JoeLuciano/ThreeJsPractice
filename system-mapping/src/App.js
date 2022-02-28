@@ -1,5 +1,6 @@
-function App() {
-  return <div>test</div>;
-}
+import ZoomPractice from './components/zoomPractice/ZoomPractice';
+import SystemMap from './components/systemMap/SystemMap';
 
-export default App;
+export default function App() {
+  return <SystemMap />;
+}

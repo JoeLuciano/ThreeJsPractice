@@ -18,7 +18,7 @@ function Cloud({ momentsData }) {
   ));
 }
 
-export default function ZoomPractice() {
+export default function SystemMap() {
   const momentsArray = useMemo(
     () =>
       Array.from({ length: 100 }, () => ({
@@ -28,7 +28,8 @@ export default function ZoomPractice() {
     []
   );
   return (
-    <div style={{ height: '100vh' }}>
+    <div id='systemMap' className='system-map'>
+      <button onClick={() => document.exitFullscreen()}>X</button>
       <Canvas linear camera={{ position: [0, 0, 5] }}>
         <ambientLight />
         <directionalLight position={[150, 150, 150]} intensity={0.55} />

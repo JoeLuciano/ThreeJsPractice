@@ -31,10 +31,11 @@ code {
   border: 1px solid black;
   height: 30rem;
   width: 30rem;
+  position: relative;
 }
 
 .exit-fullscreen {
-  position: fixed;
+  position: absolute;
   z-index: 10;
   top: 0.5rem;
   left: 0.5rem;

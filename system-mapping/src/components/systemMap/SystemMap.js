@@ -29,7 +29,11 @@ export default function SystemMap() {
   );
   return (
     <div id='systemMap' className='system-map'>
-      <button onClick={() => document.exitFullscreen()}>X</button>
+      <button
+        className='exit-fullscreen'
+        onClick={() => document.exitFullscreen()}>
+        X
+      </button>
       <Canvas linear camera={{ position: [0, 0, 5] }}>
         <ambientLight />
         <directionalLight position={[150, 150, 150]} intensity={0.55} />

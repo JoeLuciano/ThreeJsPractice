@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { useState, useMemo, useEffect } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { OrbitControls, Billboard, Plane } from '@react-three/drei';
+import { OrbitControls, Billboard } from '@react-three/drei';
 import randomColor from 'randomcolor';
 import CameraControls from 'camera-controls';
 

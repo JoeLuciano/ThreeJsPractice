@@ -1,7 +1,7 @@
 import * as THREE from 'three';
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { OrbitControls, Billboard, Plane } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
 import randomColor from 'randomcolor';
 import CameraControls from 'camera-controls';
 //https://codesandbox.io/s/three-fiber-zoom-to-object-camera-controls-solution-final-sbgx0?file=/src/App.js:635-779
